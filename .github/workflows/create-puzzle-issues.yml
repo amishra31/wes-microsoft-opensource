@@ -1,0 +1,40 @@
+name: Create Puzzle Issues
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  create-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Generate issues JSON
+        run: |
+          python generate_issues_json.py
+      
+      - name: Create GitHub issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python create_issues_via_api.py
+      
+      - name: Summary
+        run: |
+          echo "✅ All puzzle issues have been created!"
+          echo "View them at: https://github.com/${{ github.repository }}/issues?q=is%3Aissue+label%3Apuzzle"

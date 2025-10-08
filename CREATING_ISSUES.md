@@ -20,13 +20,28 @@ Each puzzle will get its own GitHub issue with:
 - **`create_all_issues.sh`**: Bash script to create all issues using GitHub CLI
 - **`.github/ISSUE_TEMPLATE/puzzle_issue.md`**: Template for manual issue creation
 
-## Method 1: Automated Creation (Recommended)
+## Method 1: GitHub Actions Workflow (Easiest - Recommended)
+
+This is the simplest method and requires no local setup.
+
+1. Go to the [Actions tab](https://github.com/amishra31/wes-microsoft-opensource/actions)
+2. Select "Create Puzzle Issues" workflow from the left sidebar
+3. Click "Run workflow" button (top right)
+4. Click the green "Run workflow" button in the dropdown
+5. Wait for the workflow to complete (~2-3 minutes)
+
+The workflow will automatically:
+- Generate the issues JSON
+- Create all 20 issues with appropriate labels
+- Provide a summary with a link to view all created issues
+
+## Method 2: Automated Creation via Scripts
 
 ### Prerequisites
-- GitHub CLI (`gh`) installed and authenticated
-- `jq` for JSON processing
+- GitHub CLI (`gh`) installed and authenticated, OR
+- Python with `requests` library installed and a GitHub Personal Access Token
 
-### Steps
+### Option A: Using GitHub CLI
 
 1. **Generate the issues JSON** (already done if `puzzle_issues.json` exists):
    ```bash
@@ -38,9 +53,28 @@ Each puzzle will get its own GitHub issue with:
    ./create_all_issues.sh
    ```
 
+### Option B: Using Python API Script
+
+1. **Create a GitHub Personal Access Token**:
+   - Go to https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Select scope: `repo` (Full control of private repositories)
+   - Generate and copy the token
+
+2. **Generate the issues JSON**:
+   ```bash
+   python generate_issues_json.py
+   ```
+
+3. **Create the issues**:
+   ```bash
+   export GITHUB_TOKEN=your_token_here
+   python create_issues_via_api.py
+   ```
+
 This will create all 20 issues in sequence with appropriate labels.
 
-## Method 2: Manual Creation via GitHub CLI
+## Method 3: Manual Creation via GitHub CLI
 
 If you prefer to create issues one at a time:
 
@@ -52,7 +86,7 @@ gh issue create --repo amishra31/wes-microsoft-opensource \
   --label puzzle,good-first-issue,difficulty:easy
 ```
 
-## Method 3: Manual Creation via GitHub Web UI
+## Method 4: Manual Creation via GitHub Web UI
 
 1. Go to https://github.com/amishra31/wes-microsoft-opensource/issues/new
 2. Choose "Python Puzzle" template
