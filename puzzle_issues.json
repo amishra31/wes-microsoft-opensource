@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Puzzle 1: Basic Addition Bug",
+    "body": "## \ud83e\udde9 Basic Addition Bug\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_01_addition.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_01_addition.py)\n\n### \ud83d\udcdd Description\n\nThis function should add two numbers together, but there's a bug!\nFind and fix the error.\n\n### \u2705 Expected Output\n\n```\nadd_numbers(5, 3) should return 8\nadd_numbers(10, 20) should return 30\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_01_addition.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_01_addition.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 2: Subtraction Logic Error",
+    "body": "## \ud83e\udde9 Subtraction Logic Error\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_02_subtraction.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_02_subtraction.py)\n\n### \ud83d\udcdd Description\n\nThis function should subtract the second number from the first,\nbut the order is wrong!\n\n### \u2705 Expected Output\n\n```\nsubtract_numbers(10, 5) should return 5\nsubtract_numbers(20, 8) should return 12\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_02_subtraction.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_02_subtraction.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 3: Multiplication with String",
+    "body": "## \ud83e\udde9 Multiplication with String\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_03_multiplication.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_03_multiplication.py)\n\n### \ud83d\udcdd Description\n\nThis function should multiply two numbers, but one is a string!\nConvert the string to a number to fix the bug.\n\n### \u2705 Expected Output\n\n```\nmultiply_numbers(5, \"3\") should return 15\nmultiply_numbers(7, \"4\") should return 28\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_03_multiplication.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_03_multiplication.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 4: Division by Zero Handling",
+    "body": "## \ud83e\udde9 Division by Zero Handling\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_04_division.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_04_division.py)\n\n### \ud83d\udcdd Description\n\nThis function divides two numbers, but it crashes when dividing by zero!\nAdd error handling to prevent the crash and return \"Error\" instead.\n\n### \u2705 Expected Output\n\n```\nsafe_divide(10, 2) should return 5.0\nsafe_divide(10, 0) should return \"Error: Cannot divide by zero\"\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_04_division.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_04_division.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 5: String Concatenation Bug",
+    "body": "## \ud83e\udde9 String Concatenation Bug\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_05_string_concat.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_05_string_concat.py)\n\n### \ud83d\udcdd Description\n\nThis function should concatenate (join) two strings with a space,\nbut there's a typo in the variable name!\n\n### \u2705 Expected Output\n\n```\njoin_strings(\"Hello\", \"World\") should return \"Hello World\"\njoin_strings(\"Python\", \"Programming\") should return \"Python Programming\"\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_05_string_concat.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_05_string_concat.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 6: String Slicing Error",
+    "body": "## \ud83e\udde9 String Slicing Error\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_06_string_slicing.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_06_string_slicing.py)\n\n### \ud83d\udcdd Description\n\nThis function should return the first 3 characters of a string,\nbut the slicing is incorrect!\n\n### \u2705 Expected Output\n\n```\nget_first_three(\"Python\") should return \"Pyt\"\nget_first_three(\"Hello\") should return \"Hel\"\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_06_string_slicing.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_06_string_slicing.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 7: List Manipulation Bug",
+    "body": "## \ud83e\udde9 List Manipulation Bug\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_07_list_manipulation.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_07_list_manipulation.py)\n\n### \ud83d\udcdd Description\n\nThis function should add a new item to the end of a list,\nbut it's using the wrong method!\n\n### \u2705 Expected Output\n\n```\nadd_to_list([1, 2, 3], 4) should return [1, 2, 3, 4]\nadd_to_list([\"a\", \"b\"], \"c\") should return [\"a\", \"b\", \"c\"]\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_07_list_manipulation.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_07_list_manipulation.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 8: Loop Logic Error",
+    "body": "## \ud83e\udde9 Loop Logic Error\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_08_loop_logic.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_08_loop_logic.py)\n\n### \ud83d\udcdd Description\n\nThis function should count how many even numbers are in a list,\nbut the condition is wrong!\n\n### \u2705 Expected Output\n\n```\ncount_evens([1, 2, 3, 4, 5, 6]) should return 3\ncount_evens([2, 4, 6, 8]) should return 4\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_08_loop_logic.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_08_loop_logic.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 9: Conditional Statement Bug",
+    "body": "## \ud83e\udde9 Conditional Statement Bug\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_09_conditional.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_09_conditional.py)\n\n### \ud83d\udcdd Description\n\nThis function should check if a number is positive, negative, or zero,\nbut the conditions are incorrect!\n\n### \u2705 Expected Output\n\n```\ncheck_number(5) should return \"Positive\"\ncheck_number(-3) should return \"Negative\"\ncheck_number(0) should return \"Zero\"\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_09_conditional.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_09_conditional.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 10: Function Return Value Bug",
+    "body": "## \ud83e\udde9 Function Return Value Bug\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_10_function_return.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_10_function_return.py)\n\n### \ud83d\udcdd Description\n\nThis function should return the maximum of two numbers,\nbut it's returning the minimum instead!\n\n### \u2705 Expected Output\n\n```\nget_max(10, 20) should return 20\nget_max(50, 30) should return 50\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_10_function_return.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_10_function_return.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 11: Variable Scope Issue",
+    "body": "## \ud83e\udde9 Variable Scope Issue\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_11_variable_scope.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_11_variable_scope.py)\n\n### \ud83d\udcdd Description\n\nThis function should calculate the area of a rectangle,\nbut there's a variable scope issue with the indentation!\n\n### \u2705 Expected Output\n\n```\ncalculate_area(5, 10) should return 50\ncalculate_area(3, 7) should return 21\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_11_variable_scope.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_11_variable_scope.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 12: Type Conversion Error",
+    "body": "## \ud83e\udde9 Type Conversion Error\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_12_type_conversion.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_12_type_conversion.py)\n\n### \ud83d\udcdd Description\n\nThis function should calculate the sum of string numbers,\nbut it's concatenating them instead of adding! Convert strings to integers.\n\n### \u2705 Expected Output\n\n```\nsum_string_numbers(\"10\", \"20\") should return 30\nsum_string_numbers(\"5\", \"15\") should return 20\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_12_type_conversion.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_12_type_conversion.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 13: String Formatting Bug",
+    "body": "## \ud83e\udde9 String Formatting Bug\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_13_string_formatting.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_13_string_formatting.py)\n\n### \ud83d\udcdd Description\n\nThis function should create a greeting message,\nbut the f-string formatting is incomplete!\n\n### \u2705 Expected Output\n\n```\ncreate_greeting(\"Alice\") should return \"Hello, Alice! Welcome!\"\ncreate_greeting(\"Bob\") should return \"Hello, Bob! Welcome!\"\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_13_string_formatting.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_13_string_formatting.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 14: List Comprehension to Implement",
+    "body": "## \ud83e\udde9 List Comprehension to Implement\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_14_list_comprehension.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_14_list_comprehension.py)\n\n### \ud83d\udcdd Description\n\nThis function should create a list of squares of numbers from 1 to n,\nbut it's not implemented yet! Use list comprehension to implement it.\n\n### \u2705 Expected Output\n\n```\nget_squares(5) should return [1, 4, 9, 16, 25]\nget_squares(3) should return [1, 4, 9]\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_14_list_comprehension.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_14_list_comprehension.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 15: Dictionary Operations Bug",
+    "body": "## \ud83e\udde9 Dictionary Operations Bug\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_15_dictionary.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_15_dictionary.py)\n\n### \ud83d\udcdd Description\n\nThis function should count the frequency of each character in a string,\nbut the increment logic is wrong!\n\n### \u2705 Expected Output\n\n```\ncount_characters(\"hello\") should return {'h': 1, 'e': 1, 'l': 2, 'o': 1}\ncount_characters(\"aaa\") should return {'a': 3}\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_15_dictionary.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_15_dictionary.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 16: Set Operations to Implement",
+    "body": "## \ud83e\udde9 Set Operations to Implement\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_16_set_operations.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_16_set_operations.py)\n\n### \ud83d\udcdd Description\n\nThis function should return the common elements between two lists,\nbut it's not implemented yet! Use set operations to find the intersection.\n\n### \u2705 Expected Output\n\n```\nfind_common([1, 2, 3, 4], [3, 4, 5, 6]) should return {3, 4}\nfind_common([\"a\", \"b\", \"c\"], [\"b\", \"c\", \"d\"]) should return {\"b\", \"c\"}\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_16_set_operations.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_16_set_operations.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 17: Exception Handling Bug",
+    "body": "## \ud83e\udde9 Exception Handling Bug\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_17_exception_handling.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_17_exception_handling.py)\n\n### \ud83d\udcdd Description\n\nThis function should convert a string to an integer safely,\nbut the exception handling is incomplete!\n\n### \u2705 Expected Output\n\n```\nsafe_int_convert(\"123\") should return 123\nsafe_int_convert(\"abc\") should return None\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_17_exception_handling.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_17_exception_handling.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 18: Logical Operators Error",
+    "body": "## \ud83e\udde9 Logical Operators Error\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_18_logical_operators.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_18_logical_operators.py)\n\n### \ud83d\udcdd Description\n\nThis function should check if a number is between 10 and 20 (inclusive),\nbut the logical operator is wrong!\n\n### \u2705 Expected Output\n\n```\nis_between_10_and_20(15) should return True\nis_between_10_and_20(5) should return False\nis_between_10_and_20(25) should return False\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_18_logical_operators.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_18_logical_operators.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 19: String Methods Bug",
+    "body": "## \ud83e\udde9 String Methods Bug\n\n**Difficulty:** Easy  \n**File:** [`python_puzzles/puzzle_19_string_methods.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_19_string_methods.py)\n\n### \ud83d\udcdd Description\n\nThis function should convert a string to uppercase,\nbut it's using the wrong method!\n\n### \u2705 Expected Output\n\n```\nto_uppercase(\"hello\") should return \"HELLO\"\nto_uppercase(\"python\") should return \"PYTHON\"\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_19_string_methods.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_19_string_methods.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:easy"
+    ],
+    "assignees": []
+  },
+  {
+    "title": "Puzzle 20: Mathematical Formula Implementation",
+    "body": "## \ud83e\udde9 Mathematical Formula Implementation\n\n**Difficulty:** Medium  \n**File:** [`python_puzzles/puzzle_20_average.py`](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/puzzle_20_average.py)\n\n### \ud83d\udcdd Description\n\nThis function should calculate the average of a list of numbers,\nbut it's not implemented yet! Calculate sum divided by count.\n\n### \u2705 Expected Output\n\n```\ncalculate_average([10, 20, 30]) should return 20.0\ncalculate_average([5, 10, 15, 20]) should return 12.5\n```\n\n### \ud83c\udfaf Your Task\n\n1. Open the file: `python_puzzles/puzzle_20_average.py`\n2. Read the description and understand what the function should do\n3. Find and fix the bug or implement the missing code\n4. Run the file to test your solution: `python puzzle_20_average.py`\n5. Verify the output matches the expected output above\n\n### \ud83d\udca1 Tips\n\n- Read error messages carefully - Python error messages are very helpful\n- Look for comments marked with `BUG` or `TODO`\n- Test your changes incrementally\n- Check `SOLUTIONS.md` if you get stuck\n\n### \ud83d\udcda Resources\n\n- [Python Puzzles README](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/README.md)\n- [Solutions Guide](https://github.com/amishra31/wes-microsoft-opensource/blob/main/python_puzzles/SOLUTIONS.md)\n\n---\n\n**Good luck and happy coding! \ud83d\udc0d\u2728**\n",
+    "labels": [
+      "puzzle",
+      "good-first-issue",
+      "difficulty:medium"
+    ],
+    "assignees": []
+  }
+]
