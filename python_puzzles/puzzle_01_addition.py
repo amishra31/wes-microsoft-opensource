@@ -13,7 +13,7 @@ add_numbers(10, 20) should return 30
 
 def add_numbers(a, b):
     """Add two numbers and return the result"""
-    result = a - b  # BUG: Wrong operator used
+    result = a + b  # BUG: Wrong operator used
     return result
 
 # Test cases
