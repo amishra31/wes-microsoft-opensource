@@ -26,6 +26,16 @@ The puzzles cover fundamental Python concepts including:
 
 ## How to Use These Puzzles
 
+**Option 1: Work with GitHub Issues (Recommended)**
+
+Browse the [puzzle issues](https://github.com/amishra31/wes-microsoft-opensource/issues?q=is%3Aissue+label%3Apuzzle) and pick one to solve:
+- [Easy puzzles](https://github.com/amishra31/wes-microsoft-opensource/issues?q=is%3Aissue+label%3Apuzzle+label%3Adifficulty%3Aeasy) - Great for beginners
+- [Medium puzzles](https://github.com/amishra31/wes-microsoft-opensource/issues?q=is%3Aissue+label%3Apuzzle+label%3Adifficulty%3Amedium) - More challenging
+
+Each issue contains complete instructions and can be used to track your progress.
+
+**Option 2: Work Directly with Files**
+
 1. **Read the description**: Each puzzle file contains a detailed description of what the function should do
 2. **Look at the expected output**: Test cases show what the correct output should be
 3. **Find and fix the bug** or **implement the missing code**
