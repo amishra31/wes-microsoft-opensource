@@ -15,9 +15,9 @@ check_number(0) should return "Zero"
 def check_number(num):
     """Check if a number is positive, negative, or zero"""
     if num < 0:
-        return "Positive"  # BUG: Should return "Negative"
+        return "Negative"  # BUG: Should return "Negative"
     elif num > 0:
-        return "Negative"  # BUG: Should return "Positive"
+        return "Positive"  # BUG: Should return "Positive"
     else:
         return "Zero"
 
