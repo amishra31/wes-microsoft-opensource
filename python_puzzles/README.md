@@ -1,6 +1,6 @@
 # Python Coding Puzzles
 
-Welcome to the Python Coding Puzzles repository! This collection contains 20 coding challenges designed to help students learn debugging and problem-solving skills.
+Welcome to the Python Coding Puzzles repository! This collection contains 30 coding challenges designed to help students learn debugging and problem-solving skills.
 
 ## About These Puzzles
 
@@ -21,8 +21,9 @@ The puzzles cover fundamental Python concepts including:
 
 ## Difficulty Levels
 
-- **Easy**: 10 puzzles - Basic syntax and logic errors
-- **Medium**: 10 puzzles - More complex logic and implementation tasks
+- **Easy**: 16 puzzles - Basic syntax and logic errors
+- **Medium**: 12 puzzles - More complex logic and implementation tasks
+- **Hard**: 2 puzzles - Advanced algorithms and recursive functions
 
 ## How to Use These Puzzles
 
@@ -59,6 +60,16 @@ The puzzles cover fundamental Python concepts including:
 | 18 | `puzzle_18_logical_operators.py` | Medium | Logical operators |
 | 19 | `puzzle_19_string_methods.py` | Easy | String methods |
 | 20 | `puzzle_20_average.py` | Medium | Mathematical formulas |
+| 21 | `puzzle_21_modulo.py` | Easy | Modulo operator |
+| 22 | `puzzle_22_string_case.py` | Easy | String case conversion |
+| 23 | `puzzle_23_list_indexing.py` | Easy | List indexing |
+| 24 | `puzzle_24_boolean_logic.py` | Easy | Boolean logic |
+| 25 | `puzzle_25_increment.py` | Easy | Increment operations |
+| 26 | `puzzle_26_string_split.py` | Easy | String split method |
+| 27 | `puzzle_27_nested_loops.py` | Medium | Nested loops |
+| 28 | `puzzle_28_tuple_operations.py` | Medium | Tuple operations |
+| 29 | `puzzle_29_recursive_function.py` | Hard | Recursion |
+| 30 | `puzzle_30_sorting_algorithm.py` | Hard | Sorting algorithms |
 
 ## Tips for Success
 

@@ -1,6 +1,6 @@
 # Solutions to Python Coding Puzzles
 
-This file contains solutions and explanations for all 20 puzzles.
+This file contains solutions and explanations for all 30 puzzles.
 
 ---
 
@@ -299,6 +299,161 @@ def calculate_average(numbers):
 ```
 
 **Explanation**: Average is calculated by dividing the sum of all numbers by the count of numbers.
+
+---
+
+## Puzzle 21: Modulo Operator Bug
+**Problem**: Wrong comparison for even numbers
+
+**Solution**:
+```python
+def is_even(num):
+    return num % 2 == 0  # Changed from == 1
+```
+
+**Explanation**: A number is even if the remainder when divided by 2 is 0, not 1.
+
+---
+
+## Puzzle 22: String Case Conversion Bug
+**Problem**: Using lower() instead of title()
+
+**Solution**:
+```python
+def make_title(text):
+    result = text.title()  # Changed from lower()
+    return result
+```
+
+**Explanation**: The title() method converts to title case (first letter of each word capitalized), while lower() converts all to lowercase.
+
+---
+
+## Puzzle 23: List Indexing Error
+**Problem**: Using index 0 instead of -1 for last element
+
+**Solution**:
+```python
+def get_last_element(items):
+    return items[-1]  # Changed from items[0]
+```
+
+**Explanation**: In Python, index -1 refers to the last element, while index 0 refers to the first element.
+
+---
+
+## Puzzle 24: Boolean Logic Bug
+**Problem**: Using < instead of > for positive check
+
+**Solution**:
+```python
+def is_positive(num):
+    return num > 0  # Changed from num < 0
+```
+
+**Explanation**: A number is positive if it's greater than 0, not less than 0.
+
+---
+
+## Puzzle 25: Increment Operator Bug
+**Problem**: Decrementing instead of incrementing
+
+**Solution**:
+```python
+def count_to(n):
+    count = 0
+    for i in range(n):
+        count = count + 1  # Changed from count - 1
+    return count
+```
+
+**Explanation**: To count up, we need to add 1, not subtract 1.
+
+---
+
+## Puzzle 26: String Split Method Bug
+**Problem**: Splitting by comma instead of space
+
+**Solution**:
+```python
+def split_words(sentence):
+    words = sentence.split(" ")  # Changed from ","
+    return words
+```
+
+**Explanation**: To split a sentence into words, we need to split by space " ", not comma.
+
+---
+
+## Puzzle 27: Nested Loop Logic Error
+**Problem**: Using i * i instead of i * j in nested loop
+
+**Solution**:
+```python
+def multiplication_table(n):
+    table = []
+    for i in range(1, n + 1):
+        row = []
+        for j in range(1, n + 1):
+            row.append(i * j)  # Changed from i * i
+        table.append(row)
+    return table
+```
+
+**Explanation**: For a multiplication table, we need to multiply the row number (i) by the column number (j), not i by itself.
+
+---
+
+## Puzzle 28: Tuple Operations Bug
+**Problem**: Returning (a, a) instead of (a, b)
+
+**Solution**:
+```python
+def swap_values(a, b):
+    temp = a
+    a = b
+    b = temp
+    return (a, b)  # Changed from (a, a)
+```
+
+**Explanation**: After swapping, we need to return both swapped values (a, b), not the same value twice.
+
+---
+
+## Puzzle 29: Recursive Function Implementation
+**Problem**: Function not implemented
+
+**Solution**:
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+```
+
+**Explanation**: Factorial is defined recursively: factorial(0) = 1 (base case), and factorial(n) = n * factorial(n-1) for n > 0.
+
+---
+
+## Puzzle 30: Sorting Algorithm Bug
+**Problem**: Using < instead of > for ascending sort
+
+**Solution**:
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    arr = arr.copy()
+    
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:  # Changed from <
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    
+    return arr
+```
+
+**Explanation**: For ascending order (smallest to largest), we swap if the current element is greater than the next element. Using < would give descending order.
 
 ---
 

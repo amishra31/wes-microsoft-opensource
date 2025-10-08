@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Test Runner for Python Puzzles
-This script shows the status of all 20 puzzles
+This script shows the status of all 30 puzzles
 """
 
 import os
@@ -32,6 +32,16 @@ def main():
         ("puzzle_18_logical_operators.py", "Logical Operators Error", "Medium"),
         ("puzzle_19_string_methods.py", "String Methods Bug", "Easy"),
         ("puzzle_20_average.py", "Mathematical Formula Implementation", "Medium"),
+        ("puzzle_21_modulo.py", "Modulo Operator Bug", "Easy"),
+        ("puzzle_22_string_case.py", "String Case Conversion Bug", "Easy"),
+        ("puzzle_23_list_indexing.py", "List Indexing Error", "Easy"),
+        ("puzzle_24_boolean_logic.py", "Boolean Logic Bug", "Easy"),
+        ("puzzle_25_increment.py", "Increment Operator Bug", "Easy"),
+        ("puzzle_26_string_split.py", "String Split Method Bug", "Easy"),
+        ("puzzle_27_nested_loops.py", "Nested Loop Logic Error", "Medium"),
+        ("puzzle_28_tuple_operations.py", "Tuple Operations Bug", "Medium"),
+        ("puzzle_29_recursive_function.py", "Recursive Function Implementation", "Hard"),
+        ("puzzle_30_sorting_algorithm.py", "Sorting Algorithm Bug", "Hard"),
     ]
     
     print("=" * 80)
